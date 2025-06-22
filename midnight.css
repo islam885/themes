@@ -675,21 +675,22 @@ body {
 :root {
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: hsl(220, 45%, 95%); /* other normally white text */
-    --text-2: hsl(220, 25%, 70%); /* headings and important text */
-    --text-3: hsl(220, 20%, 60%); /* normal text */
-    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+    --text-1: hsl(220, 45%, 80%);
+    --text-2: hsl(220, 25%, 60%);
+    --text-3: hsl(220, 20%, 50%);
+    --text-4: hsl(220, 15%, 30%);
+    --text-5: hsl(220, 15%, 15%);
 
     /* background and dark colors */
-    --bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
-    --bg-2: hsl(220, 15%, 16%); /* dark buttons */
-    --bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
-    --bg-4: hsl(220, 15%, 10%); /* main background color */
-    --hover: hsla(221, 19%, 40%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
-    --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
-    --message-hover: hsla(230, 0%, 0%, 0.1); /* messages when hovered */
+    --bg-1: hsl(220, 15%, 10%);
+    --bg-2: hsl(220, 15%, 8%);
+    --bg-3: hsl(220, 15%, 6%);
+    --bg-4: hsl(220, 15%, 4%);
+
+    --hover: hsla(221, 19%, 25%, 0.1);     /* почти чёрный, еле заметное наведение */
+    --active: hsla(220, 19%, 25%, 0.15);   /* тёмное нажатие */
+    --active-2: hsla(220, 19%, 25%, 0.25);
+    --message-hover: hsla(230, 0%, 100%, 0.03); /* слабое светлое свечение */
 
     /* accent colors */
     --accent-1: var(--blue-1); /* links and other accent text */
